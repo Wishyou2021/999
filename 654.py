@@ -8,12 +8,12 @@ confirm_input = st.button('輪入確認')
 if confirm_input:
     bmi=w/(h*h)
     #print('BMI為',bmi)
-    st.write('BMI為',bmi）
+    st.write('BMI為',bmi)
     if (bmi < 18):
-        st.write('體重過輕，）
+        st.write('體重過輕，)
     elif (bmi < 24）：
-        st.write('體重正常，）
+        st.write('體重正常，)
     elif (bmi ＜ 27）：
-        st.write('體重過重'）
+        st.write('體重過重')
     else:
-        st.write('體重肥胖'）
+        st.write('體重肥胖')
