@@ -1,8 +1,8 @@
 import streamlit as st
 
 # w= float(input（'請輸入體重(KG)？'））
-W = st.number_input('請輸入體重(KG)？')
-h = st.number_input('請輸入身高(M)？')
+W=st.number_input('請輸入體重(KG)？')
+h=st.number_input('請輸入身高(M)？')
 confirm_input = st.button('輪入確認')
 
 if confirm_input:
