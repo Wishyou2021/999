@@ -5,9 +5,9 @@ W = st.number_input('請輸入體重(KG)？')
 h = st.number_input('請輸入身高(M)？')
 confirm_input = st.button('輪入確認')
 
-if confirm input:
+if confirm_input:
     bmi=w/(h*h)
-    #print('"BMI為',bmi)
+    #print('BMI為',bmi)
     st.write('BMI為',bmi）
     if (bmi < 18):
         st.write('體重過輕，）
